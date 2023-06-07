@@ -1,0 +1,29 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #fefefd;
+    background: -moz-linear-gradient(left,  #fefefd 0%, #dce3c4 42%, #aebf76 100%);
+    background: -webkit-linear-gradient(left,  #fefefd 0%,#dce3c4 42%,#aebf76 100%);
+    background: linear-gradient(to right,  #fefefd 0%,#dce3c4 42%,#aebf76 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefd', endColorstr='#aebf76',GradientType=1 );
+
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+H1 {
+    font-family: 'Roboto', sans-serif;
+    color: #aebf76;
+    font-size:30px;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px RGBA(0,0,0,.45);
+}
+.main {
+    width: 90%; margin-left: 5%; margin-right: 5%;padding: 20px;
+}
