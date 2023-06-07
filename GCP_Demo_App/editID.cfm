@@ -6,7 +6,7 @@ function printMsg(string msg) {
 function getFirestoreHandle(){
         gcpCred = {
         projectId : "gcpcoldfusion",
-        credentialJsonFilePath : "C:\ProjectFortuna\cfusion\wwwroot\GCP-Demo-App\gcpcoldfusion-c70a0cbf1caa.json"
+        credentialJsonFilePath : "PATH_TO_LOCAL_GCP_SERVICE_CREDENTIALS"
     };
     config = {
         "alias" = "test",
@@ -18,7 +18,7 @@ function getFirestoreHandle(){
 function getStorageHandle(){
     gcpCred  = {
         "projectId" : "gcpcoldfusion",
-        "credentialJsonFilePath" : "C:\ProjectFortuna\cfusion\wwwroot\GCPdemo\gcpcoldfusion-c70a0cbf1caa.json"
+        "credentialJsonFilePath" : "PATH_TO_LOCAL_GCP_SERVICE_CREDENTIALS"
     };
     gcpConf  = {
         "alias" : "conf",
