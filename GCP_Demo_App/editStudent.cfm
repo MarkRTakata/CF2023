@@ -2,7 +2,7 @@
 function getFirestoreHandle(){
         gcpCred = {
         projectId : "gcpcoldfusion",
-        credentialJsonFilePath : "C:\ProjectFortuna\cfusion\wwwroot\GCP-Demo-App\gcpcoldfusion-c70a0cbf1caa.json"
+        credentialJsonFilePath : "PATH_TO_LOCAL_GCP_SERVICE_CREDENTIALS"
     };
     config = {
         "alias" = "test",
